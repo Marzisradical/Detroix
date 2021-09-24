@@ -1,0 +1,147 @@
+:root {
+    --prim: #131c29;
+    --sec: #ff8901;
+    --bgColor: #213349;
+    --headerFont: 'Barlow Condensed', sans-serif;
+    --textFont: 'Open Sans Condensed', sans-serif;
+
+}
+section {
+    padding: 7px;
+}
+body {
+    font-family: var(--textFont);
+    background-color: #f1f2f4;
+}
+
+.top-header {
+    background-color: var(--prim);
+}
+
+.top-header a {
+    color: grey;
+    text-transform: uppercase;
+}
+
+.top-header a:hover {
+    color: white;
+}
+
+.top-nav-item {
+    border-right: 1px solid grey;
+}
+
+.top-nav-item:last-child {
+    border-right: none;
+}
+
+.main-nav-item {
+    font-family: var(--headerFont);
+    background-color: var(--prim);
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+}
+
+.main-nav-item a {
+    color: white;
+}
+
+.main-nav-item a:hover {
+    color: black;
+}
+
+.button {
+    font-family: var(--headerFont);
+    background-color: var(--prim);
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+/* MAIN */
+.content-section .col-md-4 {
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;   
+}
+
+.content-section h2 {
+    font-size: 40px;
+    font-family: var(--headerFont);
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+
+.main-footer {
+    background: radial-gradient(circle at top, rgba(30,48,68,1) 0%, rgb(20, 29, 42) 100%);
+    background-position: top;
+    color: white;
+}
+.main-footer .sub-header {
+    text-transform: uppercase;
+    font-family: var(--headerFont);
+    font-weight: 400;
+    color: white;
+    font-family: var(--headerFont);
+    font-weight: 400;
+}
+
+.main-footer a{
+    color:white;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    color: black;
+}
+
+.main-footer ul {
+    list-style-type: none;
+    
+}
+
+
+
+.date {
+    float: left;
+    padding: 3px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: var(--whiteish);
+    font-family: var(--fontHeading);
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+.day{
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.date1 {
+    background-color: #be8442;
+}
+
+.date2 {
+    background-color: #bc6142;
+}
+
+.date3 {
+    background-color: #bd4258;
+}
+
+.colophon {
+    padding-top: 20px;
+    background: #0b1016;
+}
+
+.colophon p, a {
+    text-transform: uppercase;
+    font-weight: 200;
+    color: lightgray;
+    font: var(--headerFont);
+    
+}
